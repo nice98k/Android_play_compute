@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".MainActivity">
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="4"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:rowCount="6">
+            <TextView
+                android:layout_columnSpan="4"
+                android:background="@drawable/textview_bg"
+                android:id="@+id/tv1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:textSize="50sp"
+                >
+            </TextView>
+        <Button
+            android:id="@+id/Del_one"
+
+            android:layout_columnSpan="2"
+            android:background="@drawable/delete_bg"
+
+            android:layout_gravity="fill"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="3dp"
+            android:text="回退">
+
+        </Button>
+
+        <Button
+            android:id="@+id/Del_all"
+            android:layout_columnSpan="2"
+            android:layout_gravity="fill"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/delete_bg"
+            android:layout_marginLeft="3dp"
+            android:text="清除">
+
+        </Button>
+
+        <Button android:text="+"
+             android:id="@+id/add"
+            ></Button>
+
+        <Button android:text="1"
+            android:id="@+id/one"
+            ></Button>
+
+        <Button android:text="2"
+            android:id="@+id/two"
+            ></Button>
+
+        <Button android:text="3"
+            android:id="@+id/three"
+            ></Button>
+
+        <Button android:text="-"
+            android:id="@+id/subtract"
+            ></Button>
+
+        <Button android:text="4"
+            android:id="@+id/four"
+            ></Button>
+
+        <Button android:text="5"
+            android:id="@+id/five"
+            ></Button>
+
+        <Button android:text="6"
+            android:id="@+id/six"
+            ></Button>
+
+        <Button android:text="*"
+            android:id="@+id/multiply"
+            ></Button>
+
+        <Button android:text="7"
+            android:id="@+id/seven"
+            ></Button>
+
+        <Button android:text="8"
+            android:id="@+id/eight"
+            ></Button>
+
+        <Button android:text="9"
+            android:id="@+id/nine"
+            ></Button>
+
+
+        <Button android:text="/"
+            android:id="@+id/devide"
+            ></Button>
+
+        <Button android:text="."
+            android:id="@+id/point"
+            ></Button>
+
+        <Button android:text="0"
+            android:id="@+id/zero"
+            ></Button>
+
+        <Button android:text="="
+            android:id="@+id/equal"
+            ></Button>
+    </GridLayout>
+
+
+</RelativeLayout>
